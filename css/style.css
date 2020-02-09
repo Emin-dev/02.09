@@ -1,11 +1,13 @@
 * {
     padding: 0px;
     margin: 0px;
+    color: white;
 }
-
+ul{
+    list-style:none
+}
 a {
     text-decoration: none;
-    color: white;
 }
 
 #pageHome {
@@ -15,6 +17,34 @@ a {
     text-align: center;
     padding: 0px 300px;
 }
+
+.menu{
+
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 100%;
+    background: #212529;
+}
+.menu .logo{
+    display: inline-block;
+}
+.menu ul{
+    margin-left: 500px;
+    display: inline-block;
+}
+.menu li{
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+
+
 
 .content {
     display: inline-block;
