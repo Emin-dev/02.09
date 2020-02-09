@@ -1,15 +1,48 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
-
 }
 
-.pageHome{
-    height: 750px;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#pageHome {
     background: url(/imgs/bg1.jpg);
+    background-position: center center;
+    background-size: cover;
     text-align: center;
+    padding: 0px 300px;
 }
 
-.content{
-    top: 50%;
+.content {
+    display: inline-block;
+    color: white;
+    padding: 300px 0px;
+}
+
+.content h3 {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.content h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+
+.content .btn {
+    background-color: #fed136;
+    border-color: #fed136;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 10px;
 }
