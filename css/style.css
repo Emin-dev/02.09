@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.pageHome{
+    height: 750px;
+    background: url(/imgs/bg1.jpg);
+    text-align: center;
+}
+
+.content{
+    top: 50%;
+}
