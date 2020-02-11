@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -17,15 +21,13 @@ a {
     text-decoration: none;
 }
 
-
-img{
-    width: 100%;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-
-
-
 /*  strat  */
+
 #pageHome {
     background: url(/imgs/bg1.jpg);
     background-position: center center;
@@ -148,13 +150,12 @@ img{
     position: relative;
 }
 
-#pageServices .card>.icon::before {
+#pageServices .card>.icon>i {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    content: "\f07a";
-    font-family: 'Font Awesome 5 Free';
+    font-size: 70px;
 }
 
 #pageServices .card h1 {
@@ -196,8 +197,6 @@ img{
     color: #6c757d;
 }
 
-
-
 #PORTFOLIO>ul {
     width: 1200px;
 }
@@ -224,4 +223,44 @@ img{
     font-style: italic;
     font-weight: 400;
     color: #6c757d;
+}
+
+.imgbox {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    cursor: pointer;
+    transition: .5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 211, 54, 0);
+}
+
+.imgbox:hover .overlay {
+    background: rgba(254, 209, 54, .9);
+}
+
+.overlay::before{
+    content: "\f067";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: rgba(255, 255, 255, 0);
+    transition: .5s;
+
+}
+
+.imgbox:hover .overlay::before{
+    color: white;
 }
