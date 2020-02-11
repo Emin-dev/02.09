@@ -3,9 +3,16 @@
     margin: 0px;
     color: white;
 }
-ul{
-    list-style:none
+
+ul {
+    display: inline-block;
+    list-style: none
 }
+
+ul>li {
+    display: inline-block;
+}
+
 a {
     text-decoration: none;
 }
@@ -18,33 +25,41 @@ a {
     padding: 0px 300px;
 }
 
-.menu{
-
+.menu {
     position: fixed;
     top: 0px;
     left: 50%;
-    transform: translate(-50%,0%);
+    transform: translate(-50%, 0%);
     width: 100%;
     background: #212529;
 }
-.menu .logo{
+
+.menu .logo {
+    padding: 10px;
     display: inline-block;
+    font-family: 'Kaushan Script', cursive;
 }
-.menu ul{
-    margin-left: 500px;
-    display: inline-block;
-}
-.menu li{
-    padding: 10px 20px;
-    display: inline-block;
+
+.menu .logo a {
+    color: #fed136;
     font-size: 20px;
+}
+
+.menu ul {
+    margin-left: 650px;
+}
+
+.menu li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
 }
 
-
-
-
+.menu>ul>li>a {
+    font-family: 'Montserrat';
+}
 
 .content {
     display: inline-block;
@@ -75,4 +90,73 @@ a {
     text-transform: uppercase;
     display: inline-block;
     border-radius: 10px;
+}
+
+/* pageServices */
+
+#pageServices {
+    padding: 100px 300px;
+    text-align: center;
+}
+
+#pageServices>h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#pageServices>h4 {
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    color: #6c757d;
+}
+
+#pageServices>ul {
+    width: 1200px;
+}
+
+#pageServices li {
+    width: 30%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+#pageServices .card {
+    display: inline-block;
+}
+
+#pageServices .card>.icon {
+    width: 120px;
+    height: 120px;
+    background: #fed136;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+}
+
+#pageServices .card>.icon::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    content: "\f07a";
+    font-family: 'Font Awesome 5 Free';
+}
+
+#pageServices .card h1 {
+    font-size: 24px;
+    margin: 15px 0px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#pageServices .card h2 {
+    font-size: 19px;
+    font-weight: 400;
+    color: #6c757d;
 }
