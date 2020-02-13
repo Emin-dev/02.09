@@ -413,7 +413,7 @@ img {
     background-color: #fed136;
 }
 
-#footer h5,h6,.Terms{
+#footer h5,.Terms a,.Terms{
     display: inline-block;
 }
 #footer h5{
@@ -425,12 +425,16 @@ img {
     line-height: 40px;
 }
 
-#footer h6{
+#footer>.Terms>a{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #fed136;
     line-height: 40px;
+    margin-right: 20px;
+}
+#footer>.Terms>a:hover{
+    text-decoration: underline;
 }
 
 .Terms{
