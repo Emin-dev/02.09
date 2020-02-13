@@ -73,6 +73,10 @@ img {
     font-family: 'Montserrat';
 }
 
+.menu>ul>li>a:hover {
+    color: #fed136;
+}
+
 .content {
     display: inline-block;
     color: white;
@@ -332,7 +336,7 @@ img {
     color: #6c757d;
 }
 
-#AMAZINGTEAM .card>ul{
+#AMAZINGTEAM .card>ul {
     margin-top: 20px;
 }
 
@@ -353,7 +357,7 @@ img {
     background-color: #212529;
 }
 
-#AMAZINGTEAM .card>ul a:hover{
+#AMAZINGTEAM .card>ul a:hover {
     background-color: #fed136;
 }
 
@@ -364,5 +368,71 @@ img {
     font-weight: 400;
     color: #6c757d;
     padding: 0px 260px;
+}
 
+/* brendlogo */
+
+#brendlogo {
+    padding: 20px;
+    text-align: center;
+}
+
+#brendlogo li {
+    margin: 0px 40px;
+}
+
+
+/* footer  */
+#footer {
+    padding: 30px;
+    text-align: center;
+}
+
+#footer ul {
+    margin-top: 20px;
+}
+
+#footer ul li {
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+#footer ul a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #212529;
+}
+
+#footer ul a:hover {
+    background-color: #fed136;
+}
+
+#footer h5,h6,.Terms{
+    display: inline-block;
+}
+#footer h5{
+    margin-right: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+    line-height: 40px;
+}
+
+#footer h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fed136;
+    line-height: 40px;
+}
+
+.Terms{
+    margin-left: 200px;
 }
