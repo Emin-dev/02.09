@@ -381,8 +381,8 @@ img {
     margin: 0px 40px;
 }
 
-
 /* footer  */
+
 #footer {
     padding: 30px;
     text-align: center;
@@ -413,10 +413,11 @@ img {
     background-color: #fed136;
 }
 
-#footer h5,.Terms a,.Terms{
+#footer h5, .Terms a, .Terms {
     display: inline-block;
 }
-#footer h5{
+
+#footer h5 {
     margin-right: 200px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -425,7 +426,7 @@ img {
     line-height: 40px;
 }
 
-#footer>.Terms>a{
+#footer>.Terms>a {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -433,10 +434,104 @@ img {
     line-height: 40px;
     margin-right: 20px;
 }
-#footer>.Terms>a:hover{
+
+#footer>.Terms>a:hover {
     text-decoration: underline;
 }
 
-.Terms{
+.Terms {
     margin-left: 200px;
+}
+
+/* CONTACT */
+
+#CONTACT {
+    padding: 100px 0px;
+    text-align: center;
+    background-image: url(/imgs/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #212529;
+
+}
+
+#CONTACT>h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#CONTACT>h4 {
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    color: #6c757d;
+}
+
+input{
+    height: auto;
+    padding: 20px;
+    display: block;
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+.form{
+    display: inline-block;
+    width: 48%;
+    float: left;
+}
+.form1{
+    padding: 28px 0px;
+    display: inline-block;
+    width: 48%;
+    float: right;
+}
+textarea{
+  
+    height: 222px;
+    resize: vertical;
+    padding: 20px;
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+}
+.inputsbox{
+    display: inline-block;
+    width: 1200px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.send{
+    cursor: pointer;
+    background-color: #fed136;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    display: block;
+    
 }
